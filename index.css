@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+  margin-left: 250px
+}
+
+#title{
+  font-family: Verdana, sans-serif;
+  margin-bottom: 20px;
+  margin-left: 250px
+}
+
+
+#canvas{
+  display:table;
+  border-spacing: 1px;
+  background-color: #bdbfc1;
+  border: 20px solid lightgray;
+  box-shadow: 0 0 20px #999;
+  padding: 20px;
+}
+
+#palette{
+  margin-top: 20px;
+}
+#palette{
+  margin-left: 125px;
+}
+
+.row{
+  display: table-row;
+}
+
+.pixel{
+  display: table-cell;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+}
+
+.pen {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border: .5px solid black
+}
